@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Estilos/TextoEstilo.css">
+
+    <!--IMPORTA O SCRIPT JS UTILIZADO PARA EXIBIR UM ALERTA-->
     <script src="../JS/Msg.js"></script>
 </head>
 
@@ -11,16 +13,19 @@
     <nav>
         <h1 class="Titulo">Formulário para contato</h1>
 
+        <!--CRIA E DECLARA OS CAMPOS DO FORMULÁRIO PARA ENTRAR EM CONTATO-->
         <form id="FormContato" method="post">
             <label for="Nome">Seu nome:</label>
-            <input type="text" id="Nome" name="NomeText" required>
+            <input type="text" id="Nome" name="NomeText" required> 
             
             <label for="Email">E-mail:</label>
             <input type="email" id="Email" name="Email" required>
            
+            <!--CRIA UMA CAIXA DE MENSAGEM COM 5 LINHAS E 30 COLUNAS = CRIA UM COMPONENTE COM ESPAÇO MAIOR PARA ESCREVER-->
             <label for="Mensagem">Mensagem:</label>
             <textarea rows="5" cols="30" id="Mensagem" name="Mensagem" required></textarea>
      
+            <!--CHAMA UMA PEQUENA FUNÇÃO JAVA SCRIPT AGRADECENDO POR ENTRAR EM CONTATO-->
             <input type="submit" value="Enviar" onclick="ShowsMsg()">
         </form>
     </nav>

@@ -1,8 +1,11 @@
+
+/*Configura o container onde fica os elementos <nav> que dividem a tela da página*/
 .Container {
     display: flex;
     height: 100vh;
 }
 
+/*Define a largura da pagina lateral para exibir uma imagem e informações textuais*/
 #LateralPagina{
     width: 200px;
 }

@@ -1,4 +1,4 @@
-/*CARREGA UMA NOVA FONTE QUE ESTAR LOCALIZADA NO PROJETO*/
+/*CARREGA UMA NOVA FONTE QUE ESTAR LOCALIZADA NO PROJETO PARA USAR NO ESTILO DO MEU NOME*/
 @font-face {
     font-family: 'LogoNameFonte';
     src: url('../Fontes/Ruthligos.ttf');
@@ -15,7 +15,7 @@
     width: 100%;
 }
 
-/*CONFIGURA O TEXTO QUE CONTÉM MEU NOME NO INÍCIO DO MENU*/
+/*CONFIGURA O TEXTO QUE CONTÉM MEU NOME NO TOPO, ONDE INICIA O MENU*/
 #NameLogo{
     position: fixed;
     top: 0;
@@ -27,6 +27,8 @@
     font-size: 16px;
 }
 
+
+/*CONFIGURA A POSIÇÃO, ESTILO E FONTE DOS ITEMS DO MENU*/
 .MenuItem {
     text-decoration: dashed;
     font-size: medium;
@@ -35,17 +37,18 @@
     color:#DF7617;
     padding: 10px;   
 }
-
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0 0 0 10%;
 }
-
 nav li{
     display: inline-block;   
 }
 
+
+
+/*FAZ O TEXTO DO MENU FICAR BRANCO QUANDO O USUÁRIO PASSAR O MOUSE ENCIMA DO TEXTO*/
 .MenuItem:hover {
    text-decoration: underline;
    color: white;

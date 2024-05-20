@@ -3,14 +3,16 @@ body {
     background-color: #2B2A2F;
 }
 
+/*CONFIGURA A AREA DO MENU SUPERIOR*/
 #MenuBase {
     width: 100%;
     height: 40px;
     border: none;
 }
 
+/*CONFIGURA A PARTE REFERENTE A VISUALIZAÇÃO DE CONTEÚDO*/
 #ConteudoPagina {
     width: 100%;
-    height: calc(100vh - 40px);
+    height: calc(100vh - 40px); /*CALCULA A ALTURA DISPONÍVEL SUBTRAINDO O VALOR DA ALTURA DO MENU*/
     border: none;
 }
