@@ -1,0 +1,12 @@
+.Container {
+    display: flex;
+    height: 100vh;
+}
+
+#LateralPagina{
+    width: 200px;
+}
+
+#ConteudoPagina{
+    margin-left: 10px;
+}

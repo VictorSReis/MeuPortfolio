@@ -1,0 +1,53 @@
+/*CARREGA UMA NOVA FONTE QUE ESTAR LOCALIZADA NO PROJETO*/
+@font-face {
+    font-family: 'LogoNameFonte';
+    src: url('../Fontes/Ruthligos.ttf');
+}
+
+
+
+/*CONFIGURAÇÕES DO MENU*/
+
+.MenuView {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/*CONFIGURA O TEXTO QUE CONTÉM MEU NOME NO INÍCIO DO MENU*/
+#NameLogo{
+    position: fixed;
+    top: 0;
+    left: 30px;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'LogoNameFonte';
+    font-size: 16px;
+}
+
+.MenuItem {
+    text-decoration: dashed;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color:#DF7617;
+    padding: 10px;   
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 10%;
+}
+
+nav li{
+    display: inline-block;   
+}
+
+.MenuItem:hover {
+   text-decoration: underline;
+   color: white;
+}
+

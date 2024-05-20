@@ -1,0 +1,26 @@
+.Titulo {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 20px 2px;
+}
+
+.Paragrafo {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 5px;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#TextoSobreLateral {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
